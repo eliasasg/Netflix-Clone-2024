@@ -1,0 +1,148 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.banner{
+    /* margin-top: 10vh; */
+    height: 80vh;
+    margin-bottom: -80px;
+    color: white;
+    object-fit: contain;
+    
+}
+.banner__contents{
+    margin-left: 30px;
+    padding-top: 380px;
+    height: 190px;
+}
+.banner__title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__fadeBottom{
+    height: 40vh;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgb(37,37,37,0.91),
+        #111
+    );
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    transition: a110.2s;
+    
+}
+.btn:hover{
+    color: #000;
+    background-color: #c6c6c6;
+    transition: a110.2s;
+}
+.mylist{
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 6px;
+        margin-right: 10px;
+        width: 100px;
+        height: 40px;
+        color: #000;
+        transition: a110.2s;
+    }
+    .mylist:hover{
+        color: #000;
+        background-color: #c6c6c6;
+        transition: a110.2s;
+    }
+    .movielist{
+        margin: 0px 10px;
+    }
+  
+    .Linkbutton{
+        /* font-size: 24px;
+        display: none;
+        cursor: pointer; */
+        align-content: center;
+        padding: 10px;
+        margin: 4px;
+    
+        
+    
+    }
+
+    .Linklist,
+    .category{
+        font-size: 18px;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+        padding: 8px 16px;
+        border-radius: 24px;
+        background: rgba(0, 0, 0, 0.8);
+        color: rgba(255, 255, 255, 0.745);
+        border-color: #c6c6c6;
+            
+
+    }
+    .link:hover{
+        color: grey;    
+    } 
+
+    /* dropdown menu starts */
+    .dropdown-menu{
+        display: none;
+    }
+    /* .link:hover .dropdown-menu{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: #000;
+    }  */
+    /* .dropdown-menu ul{
+        display: block;
+        margin: 10px ;
+    } */
+    /* .dropdown-menuul li{
+        width: 150px;
+        padding: 10px;
+    } */
+
+
+
+    
+    .category .dropdown-menu ul li{
+        padding: 10px 0px;
+        position: relative;
+    }
+   
+    .dropdown-menu{
+        width: 150px;
+        padding: 10px;
+    }
+
+
+
+  
+@media screen and (max-width: 1040px){
+    .Linkbutton{
+        display: flex;
+        
+        
+    }
+}
