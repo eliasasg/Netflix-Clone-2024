@@ -8,6 +8,7 @@ import "../Banner/banner.css"
 
 
 
+
 const Banner = () => {
     const [movie, setMovie]= useState({});
     useEffect(()=>{
@@ -36,9 +37,12 @@ const Banner = () => {
     }}>
         <div className='Linkbutton'>
             <div className='linkOrderList'>
-                <button className=' Linklist '> <Link className='link'>Tv Show</Link></button>
-                <button className=' Linklist movielist '><Link className='link'>Movies</Link> </button>
-                <button className='category'> <Link className='link'>Categories <i className='fas fa-caret-down'></i></Link>    
+                <button className=' Linklist '> <Link className='link' to="https://www.netflix.com/browse/genre/83
+">TvShow</Link></button>
+                <button className=' Linklist movielist '><Link className='link' to="https://www.netflix.com/browse/genre/34399
+">Movies</Link></button>
+                <button className='category'> <Link className='link' to="https://www.netflix.com/latest
+" >Categories <i className='fas fa-caret-down'></i></Link>    
                     <div className='dropdown-menu'>
                         <ul>
                             <li><Link className='link'>link My List</Link>  </li>

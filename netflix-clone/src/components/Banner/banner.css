@@ -74,9 +74,9 @@
     }
   
     .Linkbutton{
-        /* font-size: 24px;
+        font-size: 24px;
         display: none;
-        cursor: pointer; */
+        cursor: pointer;
         align-content: center;
         padding: 10px;
         margin: 4px;
@@ -107,22 +107,7 @@
     .dropdown-menu{
         display: none;
     }
-    /* .link:hover .dropdown-menu{
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 100%;
-        background-color: #000;
-    }  */
-    /* .dropdown-menu ul{
-        display: block;
-        margin: 10px ;
-    } */
-    /* .dropdown-menuul li{
-        width: 150px;
-        padding: 10px;
-    } */
-
+  
 
 
     
