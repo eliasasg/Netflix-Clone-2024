@@ -13,7 +13,7 @@
 }
 .banner__contents{
     margin-left: 30px;
-    padding-top: 380px;
+    padding-top: 320px;
     height: 190px;
 }
 .banner__title{
@@ -23,7 +23,7 @@
 }
 
 .banner__fadeBottom{
-    height: 40vh;
+    height: 50vh;
     background-image: linear-gradient(
         180deg,
         transparent,
@@ -72,62 +72,98 @@
     .movielist{
         margin: 0px 10px;
     }
-  
-    .Linkbutton{
-        font-size: 24px;
-        display: none;
-        cursor: pointer;
-        align-content: center;
-        padding: 10px;
-        margin: 4px;
-    
-        
-    
-    }
-
-    .Linklist,
-    .category{
-        font-size: 18px;
-        align-items: center;
-        align-content: center;
-        cursor: pointer;
-        padding: 8px 16px;
-        border-radius: 24px;
-        background: rgba(0, 0, 0, 0.8);
-        color: rgba(255, 255, 255, 0.745);
-        border-color: #c6c6c6;
-            
-
-    }
     .link:hover{
         color: grey;    
     } 
 
-    /* dropdown menu starts */
-    .dropdown-menu{
+ 
+    
+    /* catagory links start here */
+    
+    .browserList{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .browserList .browerselct{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .browserList .browerselct li{
+        position: relative;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 14px;
+    }
+    .browserList .browerselct li a{
+        height: 100%;
+        /* color: #fff; */
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    .browserList .browerselct li .droparrow {
+        height:100% ;
+        width: 22px;
+        text-align: center;
+        /* color: #fff; */
+        /* line-height: 70px; */
+        transition: all 0.3s ease;
+    }
+    .browserList .browerselct li:hover .browsers{
+        transform: rotate(360deg);
+    }
+    .browserList .browerselct .catagorylist{
+        position: absolute;
+        
+        right: 0;
+        line-height: 40px;
+    
         display: none;
     }
-  
-
-
+    .browserList .browerselct .catagorylist li{
+        padding: 0 22px;
+    }
+    .browserList .browerselct .catagorylist li a{
+        font-size: 18px;
+        font: 500;
+    }
+    .browserList .browerselct li:hover .catagorylist{
+        display: block;
+        color: #000;
+        background-color: black;
+        transition: a110.2s;
+    }
+    .link{
+        text-decoration: none;
+    }
+    .tvshow,
+    .movies,
+    .catagories{
+        
+        background: rgba(0, 0, 0, 0.558);
+        border-width: 24px;
+        border-radius: 45px;
+        
+        gap: 10px;
+    }
     
-    .category .dropdown-menu ul li{
-        padding: 10px 0px;
-        position: relative;
-    }
-   
-    .dropdown-menu{
-        width: 150px;
-        padding: 10px;
-    }
-
 
 
   
 @media screen and (max-width: 1040px){
-    .Linkbutton{
+    .browserList{
         display: flex;
+      
         
         
     }
+    
 }

@@ -35,29 +35,31 @@ const Banner = () => {
         backgroundRepeat: "no-repeat"
     
     }}>
-        <div className='Linkbutton'>
-            <div className='linkOrderList'>
-                <button className=' Linklist '> <Link className='link' to="https://www.netflix.com/browse/genre/83
-">TvShow</Link></button>
-                <button className=' Linklist movielist '><Link className='link' to="https://www.netflix.com/browse/genre/34399
-">Movies</Link></button>
-                <button className='category'> <Link className='link' to="https://www.netflix.com/latest
-" >Categories <i className='fas fa-caret-down'></i></Link>    
-                    <div className='dropdown-menu'>
-                        <ul>
-                            <li><Link className='link'>link My List</Link>  </li>
+
+        <div className='browserList'>
+            <ul className='browerselct'>
+                <li className='tvshow '> <Link className='link' to="https://www.netflix.com/browse/genre/83
+">TvShow</Link></li>
+                <li className=' movies '><Link className='link' to="https://www.netflix.com/browse/genre/34399
+">Movies</Link></li>
+                <li  className='catagories'> Catagories 
+                <i class='bx bxs-chevron-down droparrow browsers' >  
+                    
+                        <ul  className=' catagory catagorylist'>
+                            <li><Link className='link' to="https://www.netflix.com/browse">Home</Link>  </li>
+                            <li><Link className='link' to="https://www.netflix.com/browse/my-list">My List</Link></li>
                             <li><Link className='link'>Action</Link></li>
-                            <li><Link className='link'>Anime</Link></li>
                             <li><Link className='link'>Comedies</Link></li>
                             <li><Link className='link'>Crime</Link></li>
                             <li><Link className='link'>Independet</Link></li>
                             <li><Link className='link'>Reality</Link></li>
-                            <li><Link >SCi-Fi</Link></li>
+                            <li><Link className='link'>SCi-Fi</Link></li>
                                     
                         </ul>
-                    </div>
-                </button>
-            </div>
+                    
+                    </i>
+                </li>
+            </ul>
         
         </div>
         <div className='banner__contents'>

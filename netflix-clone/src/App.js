@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Home/>
-      </Router>
-      
-    
+      </Router>      
     </div>
   );
 }
