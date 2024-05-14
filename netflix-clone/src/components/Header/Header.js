@@ -29,7 +29,7 @@ const Header = () => {
 <div className='nav-links'>
     <ul className='links'>
           <div className='NavElement'>
-          <li className='NavElement'><NavLink className='link' to="https://www.netflix.com/browse "> Home</NavLink></li>
+          <li className='NavElement'><NavLink className='link' to="https://www.netflix.com/ "> Home</NavLink></li>
                   <li className='NavElement'><NavLink className='link' to="https://www.netflix.com/browse/genre/83">TvShow</NavLink></li>
                   <li className='NavElement'><NavLink className='link' to="https://www.netflix.com/browse/genre/34399">Movies</NavLink></li>
                   <li className='NavElement'><NavLink className='link' to="https://www.netflix.com/latest">Latest</NavLink></li>

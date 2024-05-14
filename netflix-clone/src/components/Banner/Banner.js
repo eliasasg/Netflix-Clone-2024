@@ -46,7 +46,7 @@ const Banner = () => {
                 <i class='bx bxs-chevron-down droparrow browsers' >  
                     
                         <ul  className=' catagory catagorylist'>
-                            <li><Link className='link' to="https://www.netflix.com/browse">Home</Link>  </li>
+                            <li><Link className='link' to="https://www.netflix.com/">Home</Link>  </li>
                             <li><Link className='link' to="https://www.netflix.com/browse/my-list">My List</Link></li>
                             <li><Link className='link'>Action</Link></li>
                             <li><Link className='link'>Comedies</Link></li>

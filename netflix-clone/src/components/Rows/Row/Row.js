@@ -59,9 +59,6 @@ const Row = ({title, fetchUrl,isLargeRow}) => {
         <h1>{title}</h1>
         <div className='row__posters' ref={rowRef}>
             {movies?.map((movie, index) =>(
-                    // <img 
-                    //     onClick={()=> handleClick(movie)} 
-                    //     key={index} src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`}  alt={movie.name} className={`row__poster ${isLargeRow && "row__posterLarge"}`} />
                     <img 
                     onClick={()=> handleClick(movie)} 
                     key={index} src={`https://image.tmdb.org/t/p/original${movie?.poster_path}(isLargeRow ? movie.poster_path : movie.backdrop_path)`}  alt={movie.name} className={`row__poster ${isLargeRow && "row__posterLarge"}`} />

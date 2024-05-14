@@ -17,8 +17,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='smhomeLinks'>
         <ul >
-          <li className='home'><Link className='link' to="https://www.netflix.com/browse
- "><MdHome size={32} /></Link>  </li>
+          <li className='home'><Link className='link' to="https://www.netflix.com"><MdHome size={32} /></Link>  </li>
           <li className='game'> <Link className='link' to="https://about.netflix.com/en/news/whats-next-for-netflix-games"><IoGameControllerSharp size={32}/></Link>  </li>
           <li className='newsHot'><Link className='link' to="https://www.whats-on-netflix.com/whats-new/"><MdOutlineSmartDisplay size={32}/></Link> </li>
           <li className='download'><Link className='link' to="https://www.digitaltrends.com/movies/how-to-download-movies-and-tv-shows-from-netflix/"><MdOutlineDownloading size={32}/></Link> </li>
